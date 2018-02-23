@@ -1,0 +1,38 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        // un serveur en ligne avec les packages
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:1.5.8.RELEASE")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'org.springframework.boot'
+
+
+jar {
+    baseName = 'gs-rest-service-cors'
+    version =  '0.1.0'
+}
+
+repositories {
+    mavenCentral()
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+dependencies {
+    compile("org.springframework.boot:spring-boot-starter-web")
+	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+	compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+    
+    testCompile("org.springframework.boot:spring-boot-starter-test")
+    testCompile("org.apache.httpcomponents:httpclient:4.5.2")
+    compile("org.springframework:spring-jdbc")
+    // moteur et langage de base de donnée linké jdbc, driver
+}
+
