@@ -1,0 +1,510 @@
+/*
+Theme Name: Open Store
+Author: ThemeFarmer
+Author URI: https://www.themefarmer.com
+Description: Open Store is child theme of StoreOne. Open Store is Powerful multipurpose WooCommerce WordPress Theme. Open Store is the perfect free theme for e-commerce shop. Open Store is responsive mobile optimized and using bootstrap framework. to show awesome icons on site it's using FontAwesome icons. Open Store is Search Engine Optimized (SEO) friendly. Theme is developed to be used for any business, corporate, companies, or freelancers to create an awesome online presence. Open Store is highly recommended for business, informative, agencies, travel, design, art, personal, restaurant, construction, health, digital agency, bloggers, corporate business, freelancers, portfolio, product showcase, and any other creative e-commerce websites. Even with all the Powerful features the theme is optimized for fast performance and security.Theme includes customizable homepage, awesome slider, social links, latest products, latest blog section and other Advance section. Theme Provide 3 page Template (Home Page , Full Width, Left Sidebar) to select layout. Open Store is perfect suitable for clothing, electronics, mobile and almost any type of store website. Open Store is good for eCommerce solution and compatible with contact form 7, JetPack, WPML. Documentation available at https://www.themefarmer.com/documentation/documentation-storeone/ and check the Demo at http://demo.themefarmer.com/open-store/
+Template: storeone
+Version: 1.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: open-store
+Tags: e-commerce, portfolio, blog, custom-logo, custom-header, custom-menu, featured-images, full-width-template, right-sidebar, left-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns
+*/
+
+body {
+    font-family: 'Barlow', sans-serif;
+    font-size: 14px;
+}
+
+.site-branding {
+    text-align: center;
+}
+
+.site-branding .site-title {
+    max-width: 100%;
+}
+
+.mbs-accout-links.pull-right {
+    margin-left: 20px;
+    padding-top: 7px;
+}
+
+.mbs-accout-links .account-links {
+    background-color: #89a6c4;
+}
+
+.account-links li {
+    margin: 0;
+    width: 100%;
+}
+
+.header-topbar {
+    background-color: #222;
+}
+
+.header-middle {
+    background-color: #ffffff;
+    color: #000
+}
+
+.header-bottom {
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.35);
+    background-color: #89a6c4;
+    color: #FFF;
+}
+
+.site-title a {
+    color: #000;
+}
+
+.site-description {
+    color: #949494;
+}
+
+.contact-info {
+    padding-top: 8px;
+}
+
+.contact-info .mail-info,
+.contact-info .call-info {
+    display: inline-block;
+    margin: 0;
+}
+
+.contact-info .call-info {
+    margin-right: 40px;
+}
+
+.contact-info .info-link {
+    color: #FFF;
+}
+
+.bgs-social li a {
+    color: #000000;
+    padding-top: 2px;
+}
+
+.shop-slider .owl-theme .owl-dots {
+    display: none;
+}
+
+
+/*.shop-slider .carousel-caption {
+    width: 100%;
+    bottom: 0 !important;
+    top: auto !important;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}*/
+
+
+/*.shop-slider .bgs-slider-heading {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}*/
+
+.shop-slider .carousel-caption,
+.blog-slider .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.29);
+    border: 1px solid #000;
+}
+
+#TF-Navbar .navbar-nav>li>a {
+    color: #FFF;
+    text-transform: uppercase;
+}
+
+.btn-myaccout,
+.btn-myaccout:hover,
+.btn-myaccout:active,
+.btn-myaccout:focus {
+    color: #fff;
+    background-color: #89a6c4;
+    border-color: #89a6c4;
+}
+
+.cart-accout-con {
+    padding: 10px 0;
+}
+
+.mid-h-left {
+    padding: 10px 0;
+}
+
+.mbs-accout-links {
+    margin-top: 13px;
+}
+
+.mini-cart-container {
+    margin-top: 6px;
+}
+
+#tf-bgs-search-button {
+    padding: 4px 10px;
+    font-size: 20px;
+    background-color: #89a6c4;
+    color: #FFF;
+    margin-top: 10px;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 2px;
+    border: 1px solid #89a6c4;
+}
+
+.header-bottom .container {
+    position: relative;
+}
+
+.search-form-container {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #FFF;
+    z-index: 120;
+    border: 1px solid #8f908f;
+    border-radius: 2px;
+    display: none;
+}
+
+.bgs-search-group {
+    height: auto;
+}
+
+.bgs-search-group input.input-search,
+.bgs-search-group select,
+.bgs-search-group .bgs-search-submit {
+    height: auto;
+    display: inline;
+    min-height: 48px;
+}
+
+
+.storeone-search .col-md-12 {
+    padding: 0;
+}
+
+
+.bgs-search-cats {
+    background-color: #222222;
+}
+
+.bgs-search-group .input-search {
+    color: #222;
+}
+
+.bgs-search-submit {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+
+
+
+
+/* color styles*/
+
+a,
+a:hover,
+a:focus {
+    color: #89a6c4;
+}
+
+button,
+input[type=button],
+input[type=submit] {
+    background-color: #89a6c4;
+}
+
+input[type=reset] {
+    color: #89a6c4;
+    border: 1px solid #89a6c4;
+}
+
+.back-to-top i {
+    background-color: #89a6c4;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background-color: #222;
+}
+
+.menu .dropdown-menu {
+    border-top: 1px solid #89a6c4;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #89a6c4;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #89a6c4;
+}
+
+@media (min-width: 768px) {
+    #TF-Navbar .dropdown-menu {
+        background-color: #89a6c4;
+    }
+}
+
+.dropdown-menu>li>a:focus,
+.dropdown-menu>li>a:hover {
+    background-color: #222222;
+    color: #FFF;
+}
+
+.home-pagi .swiper-pagination-bullet,
+.owl-dot {
+    background: #222 !important;
+    border: 1px solid #89a6c4;
+}
+
+.owl-dot.active {
+    background: #89a6c4 !important;
+}
+
+.owl-next,
+.owl-prev {
+    background-color: #89a6c4;
+}
+
+.bps-slider .banner-link {
+    background-color: #89a6c4;
+    border: 1px solid #89a6c4;
+    font-size: 14px;
+    padding: 7px 15px;
+}
+
+.bds-date-block.bds-day {
+    background-color: #89a6c4;
+}
+
+.bgs-blog-more {
+    background-color: #89a6c4;
+}
+
+.bgs-post.sticky .bgs-post-content {
+    background-color: #89a6c4;
+}
+
+.btn-theme {
+    background-color: #89a6c4;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    color: #FFF;
+}
+
+.btn-theme:hover,
+.btn-theme:focus {
+    background-color: #222;
+    color: #FFF;
+}
+
+.btn-filter.btn-active,
+.btn-filter.btn-active:hover,
+.btn-filter.btn-active:focus,
+.btn-filter.btn-active:active {
+    background-color: #222;
+    color: #FFF;
+}
+
+.widget ul li a:hover {
+    color: #89a6c4;
+}
+
+.tagcloud a {
+    border: 2px solid #89a6c4;
+}
+
+.calendar_wrap #wp-calendar caption {
+    background-color: #89a6c4;
+}
+
+.calendar_wrap #wp-calendar td,
+.calendar_wrap #wp-calendar th {
+    border: 1px solid #89a6c4;
+}
+
+.sidebar-widget .widget-heading {
+    background-color: #89a6c4;
+    border-bottom: 3px solid #222222;
+    border-right: 10px solid #222222;
+}
+
+.sidebar-widget ul li::before {
+    color: #89a6c4;
+}
+
+.footer-widget .widget-heading:before,
+.footer-widget .widget-heading:after {
+    border-bottom: 1px solid #89a6c4;
+}
+
+.footer-widget .widget-heading:after {
+    border-bottom: 1px solid #222;
+}
+
+.bgs-pagination .nav-previous a,
+.bgs-pagination .nav-next a {
+    border: 1px solid #89a6c4;
+    color: #89a6c4;
+}
+
+
+.bgs-pagination .page-numbers {
+    border: 1px solid #89a6c4;
+    color: #89a6c4;
+}
+
+.bgs-pagination .page-numbers:hover {
+    background-color: #89a6c4;
+    border: 1px solid #89a6c4;
+}
+
+.bgs-pagination .page-numbers.current {
+    border: 1px solid #89a6c4;
+    color: #ffffff;
+    background-color: #89a6c4;
+}
+
+.footer-right .bgs-social li a {
+    color: #89a6c4;
+}
+
+.page-header.error {
+    border-bottom: 1px solid #89a6c4;
+}
+
+.bgs-404-page h2.code-404 {
+    color: #89a6c4;
+}
+
+.woocommerce .add_to_cart_button {
+    background-color: #89a6c4 !important;
+}
+
+.woocommerce ul.products li.product .onsale {
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.woocommerce .cart .button,
+.woocommerce a.button.alt {
+    background-color: #89a6c4 !important;
+}
+
+.woocommerce .cart .button:hover {
+    background-color: #89a6c4;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range {
+    background-color: #89a6c4;
+}
+
+.shop-widget.widget_product_categories .product-categories .cat-parent:after {
+    color: #89a6c4;
+}
+
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button {
+    background-color: #89a6c4;
+}
+
+.woocommerce #respond input#submit:hover,
+.woocommerce a.button:hover,
+.woocommerce button.button:hover,
+.woocommerce input.button:hover {
+    background-color: #89a6c4;
+}
+
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active {
+    background-color: #89a6c4;
+    border: 1px solid #89a6c4;
+}
+
+.woocommerce span.onsale {
+    color: #89a6c4;
+}
+
+.sweep-to-right:before {
+    background: #89a6c4;
+}
+
+.sweep-to-left:before {
+    background: #89a6c4;
+}
+
+.sweep-to-bottom:before {
+    background: #89a6c4;
+}
+
+.cart-btn {
+    border: 1px solid #89a6c4;
+    border-bottom: 2px solid #89a6c4;
+    color: #89a6c4;
+}
+
+.bds-date-block.bds-month {
+    background-color: #222;
+    color: #fff;
+}
+
+.woocommerce span.onsale {
+    color: #ffffff;
+    background-color: #222222;
+}
+
+.bgs-post.sticky .bgs-post-content .bds-date-block.bds-day {
+    border-right: 1px solid #222222;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover,
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: #222222;
+    color: #ffffff;
+}
+
+.bps-slider.shop-slider {
+    margin-bottom: 30px;
+    margin-top: -30px;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #FFF;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: #222;
+}
+
+.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    background-color: #222222;
+    border-radius: 2px;
+}
+
+.shop-widget.widget_product_categories .product-categories .cat-parent:after {
+    background-color: #222222;
+}
+
+.bgs-cart-container {
+    z-index: 999;
+}

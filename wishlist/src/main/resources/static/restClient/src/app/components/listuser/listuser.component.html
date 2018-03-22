@@ -1,0 +1,28 @@
+<div class="container">
+
+    <!-- <div class="col-sm-6 col-sm-offset-3" *ngFor="let user of users"> -->
+            <div class="col-sm-6 col-sm-offset-3">
+                    
+        <div>
+            <button class="btn btn-danger" (click)="deleteUser(user)">Delete</button>
+            <button class="btn btn-primary" (click)="updateUser(user)">Edit</button>
+        </div>
+        <div class="row">
+            <p>Id</p>
+            <p>{{user.id}}</p>
+        </div>
+        <div class="row">
+            <p>Nom</p>
+            <p>{{user.fname}}</p>
+        </div>
+        <div class="row">
+            <p>Prenom</p>
+            <p>{{user.lname}}</p>
+        </div>
+        <div class="row">
+            <p>Somme donnée</p>
+            <p>{{user.emoney}}</p>
+        </div>
+    </div>
+    <button class="btn btn-primary" (click)="newUser()">New User</button>
+</div>

@@ -1,0 +1,102 @@
+While making Hypermarket theme, we used third-party plugins and resources, and want to thank their creators:
+
+Bourbon - A simple and lightweight mixin library for Sass
+The MIT License - Copyright © 2011-2017 thoughtbot, inc.
+https://github.com/thoughtbot/bourbon/blob/master/LICENSE.md
+
+jQuery - most popular feature-rich JavaScript library
+Copyright JS Foundation and other contributors, https://js.foundation/
+https://github.com/jquery/jquery/blob/master/LICENSE.txt
+
+Modernizr - JavaScript library that detects HTML5 and CSS3 features in the users browser
+The MIT License - Made by Faruk, Paul, Alex, Ryan, Patrick, Stu, and Richard.
+https://github.com/Modernizr/Modernizr/blob/master/LICENSE
+
+Bootstrap - Most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web
+Copyright (c) 2011-2017 Twitter, Inc.
+Copyright (c) 2011-2017 The Bootstrap Authors
+https://github.com/twbs/bootstrap/blob/v4-dev/LICENSE
+
+Velocity.js - Accelerated JavaScript animation
+The MIT License - Copyright (c) 2014 Julian Shapiro
+https://github.com/julianshapiro/velocity/blob/master/LICENSE.md
+
+Smooth Scroll - An extension for smooth scrolling in Google Chrome
+The MIT License - Copyright (c) 2010-2016 Balazs Galambosi
+https://github.com/galambalazs/smoothscroll/blob/master/LICENSE
+
+Waves - Click effect inspired by Googles Material Design
+The MIT License - Copyright (c) 2014 Alfiana E. Sibuea
+https://github.com/fians/Waves/blob/master/LICENSE
+
+M-Store - Modern E-Commerce Template
+The GPL version 2 or (at your option) any later version
+Order#: WB0C3M094 Paid: 2017-01-03
+Extended License - de8dd598-6afc-41c0-a6de-34e0df5dd931
+http://support.wrapbootstrap.com/knowledge_base/topics/usage-licenses
+
+matchHeight - Responsive equal heights plugin
+The MIT License - Copyright (c) 2014 Liam Brummitt
+https://github.com/liabru/jquery-match-height/blob/master/LICENSE
+
+Twenty Sixteen — Free WordPress Theme
+The GPL version 2 or (at your option) any later version
+http://www.gnu.org/licenses/gpl-2.0.html
+
+UnderStrap - Combines Automattics Underscores Starter Theme and Bootstrap 4
+The GPL version 2 or (at your option) any later version
+https://github.com/holger1411/understrap#license
+
+WP Bootstrap Navwalker - A custom WordPress nav walker class
+GNU GENERAL PUBLIC LICENSE
+https://github.com/twittem/wp-bootstrap-navwalker/blob/master/LICENSE.txt
+
+HTML5 Number polyfill - A polyfill for implementing the HTML5 number element in browsers that do not currently support it
+The MIT License - Copyright (c) 2011 Jonathan Stipe
+https://github.com/jonstipe/number-polyfill#license-mit
+
+WooCommerce - An open source eCommerce plugin for WordPress
+The GPL version 2 - Copyright 2015 by the contributors
+https://github.com/woocommerce/woocommerce/blob/master/license.txt
+
+WooCommerce Quantity Increment - WordPress Plugins
+The GPL version 2 or (at your option) any later version
+https://github.com/woocommerce/WooCommerce-Quantity-Increment
+
+Material Design Icons - Icon font for the web
+The Apache License
+https://github.com/google/material-design-icons/blob/master/LICENSE
+
+Icons Mind - Perfect icons start with icons mind
+Released under extended license
+https://iconsmind.com/classic-license/
+
+Socicon - The social icon font
+Released under SIL Open Font License 1.1
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+Work Sans Google Font-Family
+Open Font License - Wei Huang
+https://fonts.google.com/specimen/Work+Sans?selection.family=Work+Sans
+http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL_web
+
+
+**All images used on the demo site (https://demo.mypreview.one/hypermarket) are for demonstration purposes only and are NOT included in the download package due to licensing rights.**
+
+Images used in screenshot.jpg:
+
+A photo by Summa - Free for commercial use No attribution required
+https://pixabay.com/en/cosmetics-powder-lipstick-1543276/
+Licensed under Creative Commons Zero - http://creativecommons.org/publicdomain/zero/1.0
+
+A photo by LeSpecialiste - Free for commercial use No attribution required
+https://pixabay.com/en/bag-burlap-casket-1431449/
+Licensed under Creative Commons Zero - http://creativecommons.org/publicdomain/zero/1.0
+
+A photo by gefrorene_wand - Free for commercial use No attribution required
+https://pixabay.com/en/dessert-milk-product-delicious-1647467/
+Licensed under Creative Commons Zero - http://creativecommons.org/publicdomain/zero/1.0
+
+A photo by Pexels - Free for commercial use No attribution required
+https://pixabay.com/en/fashion-clothes-sweater-wool-1283863/
+Licensed under Creative Commons Zero - http://creativecommons.org/publicdomain/zero/1.0
