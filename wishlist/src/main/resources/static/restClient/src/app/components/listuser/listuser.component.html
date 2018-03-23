@@ -1,28 +1,80 @@
-<div class="container">
-
-    <!-- <div class="col-sm-6 col-sm-offset-3" *ngFor="let user of users"> -->
-            <div class="col-sm-6 col-sm-offset-3">
-                    
-        <div>
-            <button class="btn btn-danger" (click)="deleteUser(user)">Delete</button>
-            <button class="btn btn-primary" (click)="updateUser(user)">Edit</button>
+<!-- <div class="container">
+    <div *ngFor="let user of users">
+        <div class="d-flex flex-row justify-content-center">
+        <button class="btn btn-danger" (click)="deleteUser(user)">
+            <i class="fas fa-trash-alt"></i>
+        </button>
+        <button class="btn btn-primary" (click)="updateUser(user)">
+            <i class="fas fa-pencil-alt"></i>
+        </button>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <div class="p-2">
+            <i class="fas fa-user">
+            </i>
         </div>
-        <div class="row">
-            <p>Id</p>
-            <p>{{user.id}}</p>
-        </div>
-        <div class="row">
-            <p>Nom</p>
+        <div class="p-2">
+            n
             <p>{{user.fname}}</p>
         </div>
-        <div class="row">
-            <p>Prenom</p>
+        <div class="p-2">
+            p
             <p>{{user.lname}}</p>
         </div>
-        <div class="row">
-            <p>Somme donnée</p>
+    </div>
+    <div class="d-flex flex-row justify-content-center">
+        <div class="p-2">
+            <i class="fas fa-thumbs-up"></i>
+        </div>
+        <div class="p-2">
+            <i class="fas fa-thumbs-down"></i>
+        </div>
+        <div class="p-2">
             <p>{{user.emoney}}</p>
         </div>
+        <div class="p-2">
+            <i class="fas fa-gift"></i>
+        </div>
     </div>
-    <button class="btn btn-primary" (click)="newUser()">New User</button>
+</div>
+<i class="fas fa-2x fa-plus-circle" (click)="newUser()"></i> -->
+
+<div class="container">
+    <div *ngFor="let user of users">
+        <div class="card mtb">
+            <div class="d-flex flex-row justify-content-center">
+                <i class="fas fa-5x fa-user-circle"></i>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p>{{user.fname}}</p>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <p>{{user.lname}}</p>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                    <p>{{user.email}}</p>
+                </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="p-2">
+                    <p>{{user.emoney}}</p>
+                </div>
+                <div class="p-2">
+                    <i class="fas fa-gift"></i>
+                </div>
+            </div>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="p-2 col-md-6">
+                    <button class="btn btn-danger btn-size btn-lg btn-block" (click)="deleteUser(user)">
+                        <i class="fas fa-trash-alt"></i>
+                    </button>
+                </div>
+                <div class="p-2 col-md-6">
+                    <button class="btn btn-primary btn-size btn-lg btn-block" (click)="updateUser(user)">
+                        <i class="fas fa-pencil-alt"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <i class="fas fa-2x fa-plus-circle" (click)="newUser()"></i>
 </div>

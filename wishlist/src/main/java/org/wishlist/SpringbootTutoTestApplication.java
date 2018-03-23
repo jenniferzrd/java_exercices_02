@@ -20,9 +20,9 @@ public class SpringbootTutoTestApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		userRepository.save(new User("one", "one", 20));
-		userRepository.save(new User("two", "one", 30));
-		userRepository.save(new User("three", "one", 10));
+		userRepository.save(new User("pierre", "martin", 20, "pierre.martin@email.com"));
+		userRepository.save(new User("jean", "claude", 30, "jean.claude@email.com"));
+		userRepository.save(new User("laura", "one", 10, "laura.one@email.com"));
 		
 }
 }

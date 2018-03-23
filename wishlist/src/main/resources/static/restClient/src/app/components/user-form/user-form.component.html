@@ -1,22 +1,31 @@
 <div class="container mtop">
-<div class="col-sm-6 col-sm-offset-3">
-      <form (ngSubmit)="processForm()" #userForm="ngForm">
-          <!-- <div class="form group">
-              <input type="text" name="id" class="form-control" [(ngModel)]="user.id">
-          </div> -->
-          <div class="form group">
-              <label for="fname">Nom</label>
-              <input type="text" name="fname" class="form-control" [(ngModel)]="user.fname">
-          </div>
-          <div class="form group">
-              <label for="lname">Prenom</label>
-              <input type="text" name="lname" class="form-control" [(ngModel)]="user.lname">
-          </div>
-          <div class="form group">
-            <label for="lname">€€€</label>
-            <input type="text" name="emoney" class="form-control" [(ngModel)]="user.emoney">
-        </div>
-          <input type="submit" value="save" class="btn btn-success mtop">
-      </form>
-      </div>
-  </div>
+    <div class="col-sm-6 col-sm-offset-3">
+        <p class="text-center title-modal"> Ajouter un participant</p>
+        <form (ngSubmit)="processForm()" #userForm="ngForm">
+            <div class="form group text-center">
+                <i class="fas fa-5x fa-user-circle"></i>
+            </div>
+            <div class="form group">
+                <input type="text" name="id" class="form-control" [(ngModel)]="user.id">
+            </div>
+            <div class="form group">
+                <label for="fname">Nom</label>
+                <input type="text" name="fname" class="form-control" [(ngModel)]="user.fname">
+            </div>
+            <div class="form group">
+                <label for="lname">Prenom</label>
+                <input type="text" name="lname" class="form-control" [(ngModel)]="user.lname">
+            </div>
+            <div class="form group">
+                    <label for="lname">Email</label>
+                    <input type="text" name="email" class="form-control" [(ngModel)]="user.email">
+                </div>
+            <div class="form group text-center">
+                <label for="lname">€€€</label>
+                <input type="text" name="emoney" class="form-control" [(ngModel)]="user.emoney">
+            </div>
+            <input type="submit" value="AJOUTER" class="btn btn-success mtop">
+        </form>
+        <a [routerLink]="['']"> <button> ANNULER </button> </a>
+    </div>
+</div>

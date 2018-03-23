@@ -12,6 +12,7 @@ public class User {
     private String fname;
     private String lname;
     private int emoney;
+    private String email;
     
 	public Long getId() {
 		return id;
@@ -37,14 +38,23 @@ public class User {
 	public void setEmoney(int emoney) {
 		this.emoney = emoney;
 	}
-	public User(String fname, String lname, int emoney) {
+	
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	
+	public User(String fname, String lname, int emoney, String email) {
 		this.fname = fname;
 		this.lname = lname;
 		this.emoney = emoney;
+		this.email = email;
 	}
 	@Override
 	public String toString() {
-		return "User [id=" + id + ", fname=" + fname + ", lname=" + lname + ", emoney=" + emoney + "]";
+		return "User [id=" + id + ", fname=" + fname + ", lname=" + lname + ", email=" + email + ", emoney=" + emoney + "]";
 	}
 	public User() {
 }

@@ -9,8 +9,10 @@ import{Router}  from '@angular/router';
   styleUrls: ['./listuser.component.css']
 })
 export class ListuserComponent implements OnInit {
+
   private users:User[];
-  constructor(private _userService:UserService, private _router:Router) { }
+
+constructor(private _userService:UserService, private _router:Router) { }
 
   ngOnInit() {
       this._userService.getUsers().subscribe((users)=>{
@@ -38,5 +40,4 @@ export class ListuserComponent implements OnInit {
     this._userService.setter(user);
      this._router.navigate(['/op']);
    }
-
 }
